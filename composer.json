@@ -1,0 +1,13 @@
+{
+  "require": {
+    "starlit/db": "^0.10.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "customClass\\": "customClass/",
+      "Home\\Models\\": "Home/Models/",
+      "Home\\Controllers\\": "Home/Controllers/"
+    }
+  }
+}
